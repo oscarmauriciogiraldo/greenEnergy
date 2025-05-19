@@ -5,6 +5,9 @@ const App = () => {
   return (
     <div>
       <Hero></Hero>
+      <div>
+
+      </div>
     </div>
   )
 } 

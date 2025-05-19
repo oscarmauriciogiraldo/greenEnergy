@@ -3,9 +3,11 @@
 /* ###### Variables ##### */
 :root {
   --background: #E5E8EB;
-
+  --dark-backgroud: #0a0f0f;
   /* *** Fonts *** */
   --font-color: #1C170D;
+  --ligth-font: #E5E8EB;
+  --title-green: #009963;
 
 }
 
@@ -18,7 +20,7 @@
 html, body{
   width: 100vw;
   background-color: var(--background);
-  color: var(--font-color);
+  /* color: var(--font-color); */
 }
 
 /** Fuentes y colores 
@@ -90,12 +92,12 @@ html, body{
   }
 
   .hero-text {
-    @apply flex flex-col justify-center md:text-[60px] text-[30px] font-semibold relative z-10 pointer-events-none;
+    @apply flex flex-col justify-center md:text-[35px] text-[25px] font-semibold relative z-50 pointer-events-none;
     img {
       @apply size-8 md:size-10 object-contain;
     }
     .slide {
-      @apply absolute pt-0 px-2 md:px-5 py-[30px] h-[48px] md:h-[78px] md:translate-y-1 translate-y-0 overflow-hidden;
+      @apply absolute ml-2 pt-0 px-2 md:px-5 py-[30px] h-[48px] md:h-[78px] md:translate-y-1 translate-y-0 overflow-hidden;
     }
   }
 
@@ -104,7 +106,8 @@ html, body{
   }
 
   .hero-3d-layout {
-    @apply xl:w-[70%] w-full h-full min-h-[50vh] absolute xl:-top-20 top-24 xl:-right-20 right-0;
+    /* xl:w-[70%] w-full h-full min-h-[50vh] absolute xl:-top-20 top-24 xl:-right-20 right-0 bg-blue-900 */
+    @apply absolute flex justify-center items-center xl:w-[100%] w-full h-full min-h-[50vh] xl:right-40 right-0 z-50 pl-4;
   }
 
   .navbar {
