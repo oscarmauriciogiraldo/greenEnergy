@@ -23,6 +23,8 @@ const HeroModel = () => {
             maxPolarAngle={Math.PI / 2}
         />
 
+        <animationMixer></animationMixer>
+
         <group
             scale={isMobile? 0.7: 1}
             /* position={[0, -3.5, 0]}

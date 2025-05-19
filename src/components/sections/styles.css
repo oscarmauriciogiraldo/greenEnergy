@@ -39,6 +39,48 @@
 
 .heroContainer
 .hero-layout-content
+.text-hero
+.title{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1.25rem 0;
+    font-size: 50px;
+    color: var(--title-green);
+}
+
+.heroContainer
+.hero-layout-content
+.text-hero
+.title
+h1{
+    font-weight: bold;
+    
+}
+
+.heroContainer
+.hero-layout-content
+.text-hero
+.hero-text-2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-top: 1.25rem;
+}
+
+.heroContainer
+.hero-layout-content
+.text-hero
+.contain-button{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 1.25rem;
+}
+
+.heroContainer
+.hero-layout-content
 figure{
     position: relative;
     display: flex;
@@ -47,7 +89,7 @@ figure{
     padding: 5px;
     justify-content: center;
     align-items: center;
-    z-index: 1000;
+    z-index: 40;
 }
 
 

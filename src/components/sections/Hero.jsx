@@ -1,4 +1,5 @@
 import { wordsEnergy } from "../../constants";
+import Button from "../buttons/Button";
 import HeroModel from "../HeroModel/HeroModel";
 
 import './styles.css'
@@ -13,10 +14,12 @@ const Hero = () => {
         {/* **left hero content */}
         {/* bg-amber-400 p-1 hero-text flex flex-col justify-center md:w-full w-screen md:px-20 px-5 */}
         <div className="text-hero">
-          <div id="text" className="hero-text flex flex-col ">
+          <div className="title">
             <h1>Green Energy</h1>
+          </div>
+          <div id="text" className="hero-text flex flex-col overflow-hidden">
             <h2>
-                Shapping
+                Energias...
                 <span className="slide">
                   <span className="wrapper  ml-4">
                     {wordsEnergy.map((word) => (
@@ -24,7 +27,7 @@ const Hero = () => {
                         <img 
                           src={word.imgPath}
                           alt={word.text}
-                          className=" xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-current" />
+                          className=" xl:size-12 md:size-8 size-7 md:p-2 p-1 rounded-full bg-[#009963]" />
 
                           <span>{word.text}</span>
                       </span>
@@ -32,9 +35,20 @@ const Hero = () => {
                   </span>
                 </span>
             </h2>
-            <h2>Into real projects</h2>
-            <h2>That Deliver Results</h2>
             
+          </div>
+
+          <div className="hero-text-2">
+            <h2>El futuro es renovable</h2>
+            <h2>Descubre los datos que estan trasformando el mundo</h2>
+          </div>
+
+          <div className="contain-button">
+            <Button
+              className="md:w-50 md:h-12 w-60 h-10 mt-2.5 rounded-lg bg-[#009963] text-[#E5E8EB]"
+              id="button"
+              text="Ver analisis actualizado"
+            />
           </div>
 
         </div>
