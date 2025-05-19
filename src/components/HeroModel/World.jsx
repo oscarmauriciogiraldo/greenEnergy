@@ -13,7 +13,7 @@ export function World(props) {
   const { nodes, materials } = useGLTF('/models/tierra.glb')
   return (
     <group {...props} dispose={null}>
-      <group rotation={[-Math.PI / 2, 0, 0]} scale={0.1}>
+      <group rotation={[-Math.PI / 2, 0, 0]} scale={0.055}>
         <mesh geometry={nodes.Object_2.geometry} material={materials.Tierra} />
         <mesh geometry={nodes.Object_3.geometry} material={materials.Nubes} />
       </group>
