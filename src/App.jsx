@@ -4,7 +4,7 @@ import Header from './components/Header/Header'
 
 const App = () => {
   return (
-    <div>
+    <div className='mainContainer'>
       <Header />
       <Hero />
       <div>
