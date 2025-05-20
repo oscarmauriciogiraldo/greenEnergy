@@ -7,3 +7,11 @@ header{
     border-bottom: 1px solid var(--title-dark);
     z-index: 20;
 }
+
+.container-h{
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
+    overflow-x: hidden;
+    padding: 1.25rem;
+}

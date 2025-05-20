@@ -19,9 +19,23 @@
 }
 
 html, body{
-  width: 100vw;
+  /* width: 100vw; */
   background-color: var(--background);
   /* color: var(--font-color); */
+}
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #62e0ff;
 }
 
 /** Fuentes y colores 

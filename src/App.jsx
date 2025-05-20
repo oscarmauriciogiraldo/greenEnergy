@@ -1,15 +1,16 @@
 import React from 'react'
 import Hero from './components/sections/Hero'
 import Header from './components/Header/Header'
+import EnergyData from './components/sections/EnergyData'
 
 const App = () => {
   return (
-    <div>
+    <div className='mainContainer'>
       <Header />
       <Hero />
-      <div>
-
-      </div>
+      <main>
+        <EnergyData />
+      </main>
     </div>
   )
 } 
