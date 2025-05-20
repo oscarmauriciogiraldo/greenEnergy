@@ -1,6 +1,6 @@
 import React from 'react'
 
-const GeotermComponent = () => {
+const Energys = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto bg-transparent rounded-lg">
       {/* Gráfica de energía (lado izquierdo) */}
@@ -14,12 +14,12 @@ const GeotermComponent = () => {
 
       {/* Información (lado derecho) */}
       <div className="w-full md:w-1/2">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Distribución de Energía Geotérmica</h2>
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Distribución de Energía Global 2023</h2>
         
         <div className="space-y-4 text-gray-600">
           <p>
-            <span className="font-medium text-blue-600">Geotérmica</span> ?% del total
-            <span className="block text-sm text-gray-500">Energia del Pais</span>
+            <span className="font-medium text-blue-600">Renovables:</span> 28% del total
+            <span className="block text-sm text-gray-500">(Solar, Eólica, Hidroeléctrica)</span>
           </p>
           
           <p>
@@ -42,4 +42,4 @@ const GeotermComponent = () => {
   )
 }
 
-export default GeotermComponent
+export default Energys

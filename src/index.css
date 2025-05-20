@@ -33,6 +33,17 @@ html, body{
 
 main{
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  overflow-x: hidden;
+  padding: 1.25rem;
+}
+
+.container-renovable-info{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow: hidden;
