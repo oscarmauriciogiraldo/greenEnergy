@@ -6,7 +6,7 @@ import './Header.css'
 const Header = () => {
   return (
     <header>
-      <div className="container-h py-10 flex justify-between items-center">
+      <div className="container py-10 flex justify-between items-center">
         {/* logo section */}
         <div className="logo-section py-10">
           <h1 className="font-bold text-2xl text-[#042f52]">
