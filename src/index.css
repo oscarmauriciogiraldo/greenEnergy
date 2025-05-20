@@ -35,7 +35,9 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #62e0ff;
+  overflow: hidden;
+  overflow-x: hidden;
+  padding: 1.25rem;
 }
 
 /** Fuentes y colores 

@@ -15,7 +15,7 @@ export const wordsEnergy = [
 
 export const menuTabs = [
     {id: 'tab1', label: 'Energia Solar'},
-    {id: 'tab2', label: 'Energia Eolica'},
-    {id: 'tab3', label: 'Energia Solar'},
-    {id: 'tab4', label: 'Energia Solar'},
+    {id: 'tab2', label: 'Energia Eólica'},
+    {id: 'tab3', label: 'Energia Hidroeléctrica'},
+    {id: 'tab4', label: 'Energia Geotérmica'},
 ]
