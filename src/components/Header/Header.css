@@ -1,0 +1,9 @@
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem 0;
+    border-bottom: 1px solid var(--title-dark);
+    z-index: 20;
+}
