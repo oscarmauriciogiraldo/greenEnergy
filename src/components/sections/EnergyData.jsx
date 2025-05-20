@@ -6,6 +6,7 @@ import SolarComponent from "../energys-data/SolarComponent"
 import EolicComponent from "../energys-data/EolicComponent"
 import HidroComponent from "../energys-data/HidroComponent"
 import GeotermComponent from "../energys-data/GeotermComponent"
+import Energys from "../energys-data/Energys"
 
 
 const EnergyData = () => {
@@ -36,11 +37,14 @@ const EnergyData = () => {
   }  
 
   return (
-    <div className="contianer flex flex-col w-full justify-center items-center ">
+    <div className="contianer flex flex-col mt-6 w-full justify-center items-center ">
         <div className="title">
             <h1>Datos y Energias renovables</h1>
         </div>
-        <div className="flex w-full items-center justify-around mt-2  flex-wrap border-b">
+        <div className="contain-country-data">
+            <Energys />
+        </div>
+        <div className="flex w-full items-center justify-around mt-6  flex-wrap border-b">
             {menuTabs.map((tab) => (
                 <button 
                     key={tab.id}
