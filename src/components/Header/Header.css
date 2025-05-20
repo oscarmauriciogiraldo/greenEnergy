@@ -11,4 +11,7 @@ header{
 .container-h{
     width: 100%;
     max-width: 1200px;
+    overflow: hidden;
+    overflow-x: hidden;
+    padding: 1.25rem;
 }

@@ -31,6 +31,13 @@ html, body{
   padding: 5px;
 }
 
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #62e0ff;
+}
+
 /** Fuentes y colores 
 * *reutilizables en toda la web */
 @theme {
